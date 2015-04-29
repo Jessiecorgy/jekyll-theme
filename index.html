@@ -1,7 +1,13 @@
 --- 
 layout: default
 ---
+{% capture jessie %}
+{% include_relative _posts/head.md %}
+{% include_relative _posts/nav.md %}
+{% include_relative _posts/footer.md %}
+{% endcapture %} 
 
+{{ jessie | markdownify }}
 
 
 <!DOCTYPE HTML>
