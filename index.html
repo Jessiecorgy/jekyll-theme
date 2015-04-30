@@ -1,29 +1,28 @@
---- 
+
+---
 layout: default
 ---
-{% capture jekyll %}
-{% include_relative _posts/2015-04-28-about.md %}
-{% include_relative _posts/2015-04-28-intro.md %}
-{% include_relative _posts/2015-04-28-portfolio.md %}
-{% include_relative _posts/2015-04-28-portfolioheading.md %}
-{% endcapture %} 
 
-{{ jekyll | markdownify }}
+{{ site.name }} Posts
+
+{% capture about %}
+	{% include_relative _posts/2015-04-28-about.md %}
+{% endcapture %}
+{{ about | markdownify }}
+
+{% capture about %}
+	{% include_relative _posts/2015-04-28-intro.md %}
+{% endcapture %}
+{{ intro | markdownify }}
+
+{% capture about %}
+	{% include_relative _posts/2015-04-28-portfolio.md %}
+{% endcapture %}
+{{ portfolio | markdownify }}
+
+{% capture about %}
+	{% include_relative _posts/2015-04-28-portfolioheading.md %}
+{% endcapture %}
+{{ portfolioheading | markdownify }}
+
 <h1>{{ site.name }}</h1>
-	
-	
-
-
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-
-	
-				
-		
-			
-			
