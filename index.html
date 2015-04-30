@@ -2,12 +2,18 @@
 layout: default
 ---
 {% capture jessie %}
-{% include_relative _posts/head.md %}
-{% include_relative _posts/nav.md %}
-{% include_relative _posts/footer.md %}
+{% include_relative _posts/2015-04-28-about.md %}
+{% include_relative _posts/2015-04-28-intro.md %}
+{% include_relative _posts/2015-04-28-portfolio.md %}
+{% include_relative _posts/2015-04-28-portfolioheading.md %}
 {% endcapture %} 
 
 {{ jessie | markdownify }}
+
+
+	<h1>{{ site.name | upcase }}</h1>
+	
+	
 
 
 <!DOCTYPE HTML>
