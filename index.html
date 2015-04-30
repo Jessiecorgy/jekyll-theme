@@ -1,5 +1,25 @@
 ---
 layout: default
 ---
+<div id="main">
 
-{{post.title}}
+					
+					
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+							  {% capture intro %}
+								<h2 class="alt">{% include_relative _posts/2015-04-28-intro.md %}</a>.</h2>
+								{% endcapture %}
+								{{ intro | markdownify }
+								<p>Ligula scelerisque justo sem accumsan diam quis<br />
+								vitae natoque dictum sollicitudin elementum.</p>
+							</header>
+							
+							<footer>
+								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+							</footer>
+
+						</div>
+					</section>
