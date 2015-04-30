@@ -1,7 +1,8 @@
 
 # Variables & Global
 name: Prologue by HTML5 UP
-site_name: 'project2'
+site_name: 'Jessie Corgy'
+name-description: Web Lab - Jekyll
 
 # Server Configs
 baseurl: /jekyll-theme
