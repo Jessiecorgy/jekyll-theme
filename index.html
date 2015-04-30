@@ -3,4 +3,11 @@ layout: default
 ---
 
 
-{% include intro.html %} { intro | markdownify }}
+<h1>{{ site.name | upcase }}</h1>
+	
+	{% capture intro %}
+		{% include_relative _posts/2015-04-28-intro.md %}
+	{% endcapture %}
+	
+
+	{{ july | markdownify }}
