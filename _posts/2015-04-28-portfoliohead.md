@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "portfolio"
+title: "portfolio head"
 ---
 
 #portfolio shmortfolio
