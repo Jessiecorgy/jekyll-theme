@@ -2,28 +2,7 @@
 layout: default
 ---
 
-{{site.site_name}} 
-<h1>{{site.site_name}}</h1>
 
-{% capture about %}
-	{% include_relative _posts/2015-04-28-about.md %}
-{% endcapture %}
-{{ about | markdownify }}
-
-{% capture about %}
-	{% include_relative _posts/2015-04-28-intro.md %}
-{% endcapture %}
-{{ intro | markdownify }}
-
-{% capture about %}
-	{% include_relative _posts/2015-04-28-portfolio.md %}
-{% endcapture %}
-{{ portfolio | markdownify }}
-
-{% capture about %}
-	{% include_relative _posts/2015-04-28-portfolioheading.md %}
-{% endcapture %}
-{{ portfolioheading | markdownify }}
 
 
 
