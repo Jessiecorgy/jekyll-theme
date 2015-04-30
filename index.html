@@ -3,3 +3,11 @@ layout: default
 ---
 
 
+<h1>{{ site.name | upcase }}</h1>
+	
+	{% capture about %}
+		{% include_relative _posts/2015-04-28-about.md %}
+	{% endcapture %}
+	
+
+	{{ about | markdownify }}
