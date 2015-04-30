@@ -5,6 +5,5 @@ title: "portfolio"
 ---
 
 #portfolio shmortfolio
-*I hate 
-*I hate
-*I hate 
+*i hate
+*i hate
