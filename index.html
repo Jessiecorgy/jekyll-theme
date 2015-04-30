@@ -1,17 +1,15 @@
 --- 
 layout: default
 ---
-{% capture jessie %}
+{% capture jekyll %}
 {% include_relative _posts/2015-04-28-about.md %}
 {% include_relative _posts/2015-04-28-intro.md %}
 {% include_relative _posts/2015-04-28-portfolio.md %}
 {% include_relative _posts/2015-04-28-portfolioheading.md %}
 {% endcapture %} 
 
-{{ jessie | markdownify }}
-
-
-	<h1>{{ site.name | upcase }}</h1>
+{{ jekyll | markdownify }}
+<h1>{{ site.name | upcase }}</h1>
 	
 	
 
@@ -26,18 +24,7 @@ layout: default
 
 	
 				
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-				
-				</div>
+		
 			
 			</div>
 
